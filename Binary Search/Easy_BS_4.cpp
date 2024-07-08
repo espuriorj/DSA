@@ -14,6 +14,7 @@ int main(){
     while(low!=high){
         int mid = (low+high)/2;
         if(arr[mid]==X){
+            cout<<"h"<<endl;
             cout<<"Found: "<<mid;
             flag = 1;
             break;
